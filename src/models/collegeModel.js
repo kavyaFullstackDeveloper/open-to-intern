@@ -19,12 +19,15 @@ trim : true
 logoLink: {
 type: String,
 required: true,
-trim : true
+trim : true,
+name: String,
+fullName:String,
 },
 
 isDeleted: {
 type: Boolean,
 default: false,
+
 },
 },
 // { timestamps: true }
